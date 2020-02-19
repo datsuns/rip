@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rip", "rip\rip.csproj", "{0A6234E9-9FB0-44A8-96A7-F161DBFA6766}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rip", "rip\rip.csproj", "{632E5F68-87B2-4DA7-8CC6-257E108B53F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ripTest", "ripTest\ripTest.csproj", "{2DDFDAED-44EB-4ABC-A6DF-ABA98ACD027D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A6234E9-9FB0-44A8-96A7-F161DBFA6766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A6234E9-9FB0-44A8-96A7-F161DBFA6766}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A6234E9-9FB0-44A8-96A7-F161DBFA6766}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A6234E9-9FB0-44A8-96A7-F161DBFA6766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632E5F68-87B2-4DA7-8CC6-257E108B53F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E5F68-87B2-4DA7-8CC6-257E108B53F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E5F68-87B2-4DA7-8CC6-257E108B53F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E5F68-87B2-4DA7-8CC6-257E108B53F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDFDAED-44EB-4ABC-A6DF-ABA98ACD027D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDFDAED-44EB-4ABC-A6DF-ABA98ACD027D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDFDAED-44EB-4ABC-A6DF-ABA98ACD027D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDFDAED-44EB-4ABC-A6DF-ABA98ACD027D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

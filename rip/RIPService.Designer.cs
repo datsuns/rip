@@ -1,6 +1,6 @@
 ﻿namespace rip
 {
-    partial class Service1
+    partial class RIPService
     {
         /// <summary> 
         /// 必要なデザイナー変数です。

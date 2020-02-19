@@ -10,19 +10,23 @@ using System.Threading.Tasks;
 
 namespace rip
 {
-    public partial class Service1 : ServiceBase
+    public partial class RIPService : ServiceBase
     {
-        public Service1()
+        private Hook hooker;
+        public RIPService()
         {
             InitializeComponent();
+            hooker = new Hook();
         }
 
         protected override void OnStart(string[] args)
         {
+            hooker.Register();
         }
 
         protected override void OnStop()
         {
+            hooker.Unregister();
         }
     }
 }

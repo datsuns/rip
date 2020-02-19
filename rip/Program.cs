@@ -17,7 +17,7 @@ namespace rip
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new RIPService()
             };
             ServiceBase.Run(ServicesToRun);
         }
